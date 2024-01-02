@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePro</title>
+    <link href="images/favicon.png" type="image/png" rel="shortcut icon">
+    <link href="styles/style.min.css" rel="stylesheet">
+    <script src="scripts/app.min.js" defer> </script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container container"><a class="header__brand" href="#"><img src="images/logo.svg" alt="HomePro"></a>
+          <div class="header__menu menu menu_hidden" id="menu"><a class="menu__brand" href="#"><img src="images/logo.svg" alt="HomePro"></a>
+            <div class="menu__lower">
+              <nav class="menu__nav">
+                <ul class="menu__list">
+                  <li class="menu__item"><a class="menu__link" href="#">About Us</a></li>
+                  <li class="menu__item"><a class="menu__link" href="#">Services</a></li>
+                  <li class="menu__item"><a class="menu__link" href="#">Our Blog</a></li>
+                  <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div><a class="header__service" href="#" data-move=".menu__lower, beforeend, only all and (max-width: 767px)">24 Hour Services</a>
+          <button class="header__toggler toggler" aria-expanded="false" aria-controls="menu" aria-label="Open main menu" title="Open main menu"><span class="toggler__icon"></span></button>
+        </div>
+      </header>
+      <main>
+        <section class="hero"> 
+          <div class="hero__container"> 
+            <div class="hero__frame"> <picture><source srcset="images/hero/01.webp" type="image/webp"><img src="images/hero/01.jpg" alt="HomePro worker repairing a door lock."></picture></div>
+            <div class="hero__middle">
+              <div class="hero__section">
+                <ul class="hero__list-upper"> 
+                  <li class="hero__upper-item">Maintenances </li>
+                  <li class="hero__upper-item">Repairs </li>
+                  <li class="hero__upper-item">Improvements</li>
+                </ul>
+                <h1 class="hero__heading heading-one">Need improvement or repair your home? we can help!</h1>
+                <ul class="hero__check-list check-list"> 
+                  <li class="check-list__item"> 
+                    <svg>
+                      <use xlink:href="./images/icons/symbol-defs.svg#icon-check"></use>
+                    </svg>Free Quotes
+                  </li>
+                  <li class="check-list__item"> 
+                    <svg>
+                      <use xlink:href="./images/icons/symbol-defs.svg#icon-check"></use>
+                    </svg>100% Commitment-Free 
+                  </li>
+                </ul>
+                <button class="hero__button button"><span class="button__text">Call Us Now</span><span class="button__frame">
+                    <svg>
+                      <use xlink:href="./images/icons/symbol-defs.svg#icon-phone"></use>
+                    </svg></span></button>
+              </div>
+              <ul class="hero__list-bottom hero-list"> 
+                <li class="hero-list__item"><span class="hero-list__frame"> 
+                    <svg>
+                      <use xlink:href="./images/icons/symbol-defs.svg#icon-guarantee"></use>
+                    </svg></span><span class="hero-list__text">Satisfaction Guarantee</span></li>
+                <li class="hero-list__item"><span class="hero-list__frame"> 
+                    <svg>
+                      <use xlink:href="./images/icons/symbol-defs.svg#icon-clock"></use>
+                    </svg></span><span class="hero-list__text">24H Availability</span></li>
+                <li class="hero-list__item"><span class="hero-list__frame"> 
+                    <svg>
+                      <use xlink:href="./images/icons/symbol-defs.svg#icon-pin"></use>
+                    </svg></span><span class="hero-list__text">Local US Professional</span></li>
+                <li class="hero-list__item"><span class="hero-list__frame"> 
+                    <svg>
+                      <use xlink:href="./images/icons/symbol-defs.svg#icon-calendar"></use>
+                    </svg></span><span class="hero-list__text">Flexible Appointments</span></li>
+              </ul>
+              <div class="hero__eyebrow eyebrow"></div>
+            </div>
+            <div class="hero__frame"> <picture><source srcset="images/hero/02.webp" type="image/webp"><img src="images/hero/02.jpg" alt="HomePro worker repairing a toilet."></picture></div>
+          </div>
+        </section>
+        <section class="professional">
+          <div class="professional__container container"> 
+            <div class="professional__row"> 
+              <div class="professional__image"> <picture><source srcset="images/professional/01.webp" type="image/webp"><img src="images/professional/01.png" alt="Workers repairing roof."></picture></div>
+              <div class="professional__info"> 
+                <h2 class="professional__heading heading-two">Professional for your home services</h2>
+                <p class="professional__text">You need help for home care? We are home care professionals focused in the US region. We provide several services that support home services</p>
+                <ul class="professional__list"> 
+                  <li class="professional__item"> 
+                    <svg>
+                      <use xlink:href="./images/icons/symbol-defs.svg#icon-check"></use>
+                    </svg>Repair and Installation 
+                  </li>
+                  <li class="professional__item"> 
+                    <svg>
+                      <use xlink:href="./images/icons/symbol-defs.svg#icon-check"></use>
+                    </svg>Plumbing
+                  </li>
+                  <li class="professional__item"> 
+                    <svg>
+                      <use xlink:href="./images/icons/symbol-defs.svg#icon-check"></use>
+                    </svg>Maintenance
+                  </li>
+                  <li class="professional__item"> 
+                    <svg>
+                      <use xlink:href="./images/icons/symbol-defs.svg#icon-check"></use>
+                    </svg>Budget-friendly
+                  </li>
+                  <li class="professional__item"> 
+                    <svg>
+                      <use xlink:href="./images/icons/symbol-defs.svg#icon-check"></use>
+                    </svg>Home Security Services
+                  </li>
+                  <li class="professional__item"> 
+                    <svg>
+                      <use xlink:href="./images/icons/symbol-defs.svg#icon-check"></use>
+                    </svg>Eco-friendly solutions
+                  </li>
+                </ul>
+                <p class="professional__notice">
+                   We already 24 hours fast services to help you. You can contact us at <a class="professional__link" href="tel:8886175894">(888) 617-5894</a></p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="services"> 
+          <div class="services__container container"> 
+            <div class="services__info"> 
+              <h2 class="services__heading heading-two">Our Services</h2>
+              <p class="services__text">You have problems with leaking pipes, broken tiles, lost keys or want to tidy up the trees around you, of course you need our help!</p>
+            </div>
+            <div class="services__grid"> 
+              <section class="services__item">
+                <div class="services__item-frame"> 
+                  <svg>
+                    <use xlink:href="./images/icons/symbol-defs.svg#icon-plumbing"></use>
+                  </svg>
+                </div>
+                <h3 class="services__item-title">Plumbing services</h3>
+                <p class="services__item-text">Drain pipe leaking, pipe clogged, replace the pipe line</p>
+              </section>
+              <section class="services__item">
+                <div class="services__item-frame"> 
+                  <svg>
+                    <use xlink:href="./images/icons/symbol-defs.svg#icon-roof"></use>
+                  </svg>
+                </div>
+                <h3 class="services__item-title">Roofing repair</h3>
+                <p class="services__item-text">Roof leaks, tile replacement, roof cleaning and maintenance</p>
+              </section>
+              <section class="services__item">
+                <div class="services__item-frame"> 
+                  <svg>
+                    <use xlink:href="./images/icons/symbol-defs.svg#icon-wall"></use>
+                  </svg>
+                </div>
+                <h3 class="services__item-title">Mold Removal</h3>
+                <p class="services__item-text">Removing and cleaning mildew, Restoration and Prevention</p>
+              </section>
+              <section class="services__item">
+                <div class="services__item-frame"> 
+                  <svg>
+                    <use xlink:href="./images/icons/symbol-defs.svg#icon-wood"></use>
+                  </svg>
+                </div>
+                <h3 class="services__item-title">Tree Trimming</h3>
+                <p class="services__item-text">Trimming and cleaning, Deadwood removal, Tree shaping</p>
+              </section>
+              <section class="services__item">
+                <div class="services__item-frame"> 
+                  <svg>
+                    <use xlink:href="./images/icons/symbol-defs.svg#icon-repair"></use>
+                  </svg>
+                </div>
+                <h3 class="services__item-title">Appliance Repair</h3>
+                <p class="services__item-text">repair of washing machines, refrigerators, Air conditioner, etc</p>
+              </section>
+              <section class="services__item">
+                <div class="services__item-frame"> 
+                  <svg>
+                    <use xlink:href="./images/icons/symbol-defs.svg#icon-bathroom"></use>
+                  </svg>
+                </div>
+                <h3 class="services__item-title">Bathroom Remodeling</h3>
+                <p class="services__item-text">Design and Consulting, installation, Repairing, tile repair</p>
+              </section>
+              <section class="services__item">
+                <div class="services__item-frame"> 
+                  <svg>
+                    <use xlink:href="./images/icons/symbol-defs.svg#icon-door"></use>
+                  </svg>
+                </div>
+                <h3 class="services__item-title">Locksmith</h3>
+                <p class="services__item-text">Lock Installation and Repair, Duplication, Lock Rekeying</p>
+              </section>
+              <section class="services__item services__item_blue">
+                <h3 class="services__item-title">More service?</h3>
+                <p class="services__item-text">You can tell us what you need and we can  help!</p>
+                <button class="services__item-button button-plain">Call Us Now</button>
+              </section>
+            </div>
+          </div>
+        </section>
+        <section class="fast"> 
+          <div class="fast__container-upper"> 
+            <div class="fast__container-lower container"> 
+              <div class="fast__upper"> 
+                <h2 class="fast__heading heading-two heading-two_white">Fast, Friendly, and Satisfaction Guarantee</h2>
+                <p class="fast__text">No matter how big or small your work is, whether it's for the interior or exterior of your home, we are ready to serve and help you solve your home problems.</p>
+              </div>
+              <div class="fast__lower">
+                <section class="fast__item fast-item">
+                  <div class="fast-item__icon" aria-hidden="true"><img src="./images/fast/guarantee.svg" alt="guarantee"></div>
+                  <div class="fast-item__info">
+                    <h3 class="fast-item__title heading-three">Satisfaction Guarantee</h3>
+                    <p class="fast-item__text">you don't need to worry about scams or our performance results. our company has been verified and strives for optimal results</p>
+                  </div>
+                </section>
+                <section class="fast__item fast-item">
+                  <div class="fast-item__icon" aria-hidden="true"><img src="images/fast/quotes.svg" alt="quotes"></div>
+                  <div class="fast-item__info">
+                    <h3 class="fast-item__title heading-three">Free Quotes</h3>
+                    <p class="fast-item__text">Get personalized cost estimates without any obligation. Experience transparency and peace of mind as you explore our service.</p>
+                  </div>
+                </section>
+                <section class="fast__item fast-item">
+                  <div class="fast-item__icon" aria-hidden="true"><img src="./images/fast/local.svg" alt="local"></div>
+                  <div class="fast-item__info">
+                    <h3 class="fast-item__title heading-three">Local Professionals</h3>
+                    <p class="fast-item__text">Our services cover the Nationwide, US area, including urban, suburban, and rural locations for both long and short term maintenance</p>
+                  </div>
+                </section>
+                <section class="fast__item fast-item">
+                  <div class="fast-item__icon" aria-hidden="true"><img src="./images/fast/24h.svg" alt="24h"></div>
+                  <div class="fast-item__info">
+                    <h3 class="fast-item__title heading-three">Fast 24-Hour Service</h3>
+                    <p class="fast-item__text">need fast handling for repairs to drains, leaks or something else? Our experts are available anytime to help you solve the problem</p>
+                  </div>
+                </section>
+                <section class="fast__item fast-item">
+                  <div class="fast-item__icon" aria-hidden="true"><img src="./images/fast/calendar.svg" alt="calendar"></div>
+                  <div class="fast-item__info">
+                    <h3 class="fast-item__title heading-three">Flexible Appointments</h3>
+                    <p class="fast-item__text">We offer convenient appointment times that can accommodate your busy schedule, day or night, 7 days a week.</p>
+                  </div>
+                </section>
+                <section class="fast__item fast-item">
+                  <div class="fast-item__icon" aria-hidden="true"><img src="./images/fast/commitment.svg" alt="commitment"></div>
+                  <div class="fast-item__info">
+                    <h3 class="fast-item__title heading-three">100% Commitment-Free</h3>
+                    <p class="fast-item__text">You are free to ask us about the problems you are facing. We offer a no-commitment approach to put your mind at ease</p>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="works">
+          <div class="works__container container"> 
+            <div class="works__columns"> 
+              <div class="works__image"> <picture><source srcset="images/works/01.webp" type="image/webp"><img src="images/works/01.png" alt="A happy worker."></picture></div>
+              <div class="works__info"> 
+                <h2 class="works__title heading-two">How HomePro works?</h2>
+                <ol class="works__list">
+                  <li class="works__list-item"> <span class="works__list-item-title">Call us anytime 24/7 </span><span class="works__list-item-text">You can contact us directly, we will quickly put you in touch with our home care professionals who are ready anytime </span></li>
+                  <li class="works__list-item"> <span class="works__list-item-title">Schedule Service </span><span class="works__list-item-text">After connecting your call, our home care experts will answer your questions and provide flexible appointment times </span></li>
+                  <li class="works__list-item"> <span class="works__list-item-title">Your request is completed</span><span class="works__list-item-text">Once your technician arrives, he will diagnose the problem and provide an estimate. If you decide to continue, the technician will get to work</span></li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </section>
+        <article class="reviews"> 
+          <div class="reviews__container container"> 
+            <h2 class="reviews__title heading-two">Here our original reviews from trusted platform</h2>
+            <div class="reviews__slider slider swiper">
+              <div class="slider__wrapper swiper-wrapper">
+                <div class="slider__slide swiper-slide">
+                  <div class="slider__company"> <picture><source srcset="images/reviews/company.webp" type="image/webp"><img src="images/reviews/company.png" alt="Trustpilot"></picture></div>
+                  <p class="slider__text">Roof repairs can be a real headache, but HomePro makes it easy! Their roofing team turned my leaky roof into a stockade. With their craftsmanship and the best materials, my house is now ready to weather any storm.</p>
+                  <div class="slider__lower"> 
+                    <div class="slider__avatar"> <picture><source srcset="images/reviews/photo.webp" type="image/webp"><img src="images/reviews/photo.jpg" alt="Kende Attila"></picture></div>
+                    <div class="slider__lower-right">
+                      <address class="slider__author">Kende Attila</address>
+                      <div class="slider__rating rating">
+                        <svg class="rating__star">
+                          <use xlink:href="./images/icons/symbol-defs.svg#icon-star"></use>
+                        </svg>
+                        <svg class="rating__star rating__star_active">
+                          <use xlink:href="./images/icons/symbol-defs.svg#icon-star"></use>
+                        </svg>
+                        <svg class="rating__star">
+                          <use xlink:href="./images/icons/symbol-defs.svg#icon-star"></use>
+                        </svg>
+                        <svg class="rating__star">
+                          <use xlink:href="./images/icons/symbol-defs.svg#icon-star"></use>
+                        </svg>
+                        <svg class="rating__star">
+                          <use xlink:href="./images/icons/symbol-defs.svg#icon-star"></use>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider__slide swiper-slide">
+                  <div class="slider__company"> <picture><source srcset="images/reviews/company.webp" type="image/webp"><img src="images/reviews/company.png" alt="Trustpilot"></picture></div>
+                  <p class="slider__text">Roof repairs can be a real headache, but HomePro makes it easy! Their roofing team turned my leaky roof into a stockade. With their craftsmanship and the best materials, my house is now ready to weather any storm. Roof repairs can be a real headache, but HomePro makes it easy! Their roofing team turned my leaky roof into a stockade. With their craftsmanship and the best materials, my house is now ready to weather any storm.</p>
+                  <div class="slider__lower"> 
+                    <div class="slider__avatar"> <picture><source srcset="images/reviews/photo.webp" type="image/webp"><img src="images/reviews/photo.jpg" alt="Kende Attila"></picture></div>
+                    <div class="slider__lower-right">
+                      <address class="slider__author">Kende Attila</address>
+                      <div class="slider__rating rating">
+                        <svg class="rating__star">
+                          <use xlink:href="./images/icons/symbol-defs.svg#icon-star"></use>
+                        </svg>
+                        <svg class="rating__star rating__star_active">
+                          <use xlink:href="./images/icons/symbol-defs.svg#icon-star"></use>
+                        </svg>
+                        <svg class="rating__star">
+                          <use xlink:href="./images/icons/symbol-defs.svg#icon-star"></use>
+                        </svg>
+                        <svg class="rating__star">
+                          <use xlink:href="./images/icons/symbol-defs.svg#icon-star"></use>
+                        </svg>
+                        <svg class="rating__star">
+                          <use xlink:href="./images/icons/symbol-defs.svg#icon-star"></use>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider__slide swiper-slide">
+                  <div class="slider__company"> <picture><source srcset="images/reviews/company.webp" type="image/webp"><img src="images/reviews/company.png" alt="Trustpilot"></picture></div>
+                  <p class="slider__text">Roof repairs can be a real headache, but HomePro makes it easy!</p>
+                  <div class="slider__lower"> 
+                    <div class="slider__avatar"> <picture><source srcset="images/reviews/photo.webp" type="image/webp"><img src="images/reviews/photo.jpg" alt="Kende Attila"></picture></div>
+                    <div class="slider__lower-right">
+                      <address class="slider__author">Kende Attila</address>
+                      <div class="slider__rating rating">
+                        <svg class="rating__star">
+                          <use xlink:href="./images/icons/symbol-defs.svg#icon-star"></use>
+                        </svg>
+                        <svg class="rating__star">
+                          <use xlink:href="./images/icons/symbol-defs.svg#icon-star"></use>
+                        </svg>
+                        <svg class="rating__star">
+                          <use xlink:href="./images/icons/symbol-defs.svg#icon-star"></use>
+                        </svg>
+                        <svg class="rating__star">
+                          <use xlink:href="./images/icons/symbol-defs.svg#icon-star"></use>
+                        </svg>
+                        <svg class="rating__star rating__star_active">
+                          <use xlink:href="./images/icons/symbol-defs.svg#icon-star"></use>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider__slide swiper-slide">
+                  <div class="slider__company"> <picture><source srcset="images/reviews/company.webp" type="image/webp"><img src="images/reviews/company.png" alt="Trustpilot"></picture></div>
+                  <p class="slider__text">Roof repairs can be a real headache, but HomePro makes it easy! Their roofing team turned my leaky roof into a stockade. With their craftsmanship and the best materials, my house is now ready to weather any storm. Roof repairs can be a real headache, but HomePro makes it easy! Their roofing team turned my leaky roof into a stockade. With their craftsmanship and the best materials, my house is now ready to weather any storm.</p>
+                  <div class="slider__lower"> 
+                    <div class="slider__avatar"> <picture><source srcset="images/reviews/photo.webp" type="image/webp"><img src="images/reviews/photo.jpg" alt="Kende Attila"></picture></div>
+                    <div class="slider__lower-right">
+                      <address class="slider__author">Kende Attila</address>
+                      <div class="slider__rating rating">
+                        <svg class="rating__star rating__star_active">
+                          <use xlink:href="./images/icons/symbol-defs.svg#icon-star"></use>
+                        </svg>
+                        <svg class="rating__star">
+                          <use xlink:href="./images/icons/symbol-defs.svg#icon-star"></use>
+                        </svg>
+                        <svg class="rating__star">
+                          <use xlink:href="./images/icons/symbol-defs.svg#icon-star"></use>
+                        </svg>
+                        <svg class="rating__star">
+                          <use xlink:href="./images/icons/symbol-defs.svg#icon-star"></use>
+                        </svg>
+                        <svg class="rating__star">
+                          <use xlink:href="./images/icons/symbol-defs.svg#icon-star"></use>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="slider__controls">
+                <button class="slider__navigation slider__navigation_prev swiper-button-prev">
+                  <svg>
+                    <use xlink:href="./images/icons/symbol-defs.svg#icon-arrow"></use>
+                  </svg>
+                </button>
+                <div class="slider__pagination swiper-pagination"></div>
+                <button class="slider__navigation slider__navigation_next swiper-button-next">
+                  <svg>
+                    <use xlink:href="./images/icons/symbol-defs.svg#icon-arrow"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </article>
+        <section class="blog"> 
+          <div class="blog__container container"> 
+            <div class="blog__info"> 
+              <h2 class="blog__heading heading-two">Explore Insights in Our Blog</h2>
+              <p class="blog__text">Find lots of insights and information on our blog. Explore, learn, and get inspired today.</p>
+            </div>
+            <div class="blog__columns"> 
+              <article class="blog__item blog-item"><a class="blog-item__frame" href="#"> <picture><source srcset="images/blog/01.webp" type="image/webp"><img src="images/blog/01.jpg" alt="A smartphone."></picture></a>
+                <header class="blog-item__header"> 
+                  <time class="blog-item__time" datetime="2023-01-19">19 Jan 2023</time>
+                  <h3 class="blog-item__title heading-four"> <a href="#">Understanding Smart Home Systems & Maintenance</a></h3>
+                </header>
+                <p class="blog-item__text">Discover the ultimate guide to troubleshooting common smart home issues in our latest blog post. From connectivity problems to device malfunctions, we provide step-by-step solutions to help you restore the seamless functionality of your smart home system. Gain expert insights, practical tips, and insider advice to keep your home automation running smoothly. Don't let technical glitches hinder your smart home experience - empower yourself with the knowledge to resolve issues and enjoy the convenience of your connected home. Visit our blog now and become a troubleshooting pro!</p>
+                <div class="blog-item__tags"> <a class="blog-item__tag" href="#">Plumbing</a><a class="blog-item__tag" href="#">Architecture</a><a class="blog-item__tag" href="#">Maintenance</a></div>
+              </article>
+              <article class="blog__item blog-item"><a class="blog-item__frame" href="#"> <picture><source srcset="images/blog/02.webp" type="image/webp"><img src="images/blog/02.jpg" alt="A smartphone."></picture></a>
+                <header class="blog-item__header"> 
+                  <time class="blog-item__time" datetime="2023-01-19">19 Jan 2023</time>
+                  <h3 class="blog-item__title heading-four"> <a href="#">The Ultimate Guide to Home Repairs and Renovations</a></h3>
+                </header>
+                <p class="blog-item__text">Discover the ultimate guide to troubleshooting common smart home issues in our latest blog post. From connectivity problems to device malfunctions, we provide step-by-step solutions to help you restore the seamless functionality of your smart home system. Gain expert insights, practical tips, and insider advice to keep your home automation running smoothly. Don't let technical glitches hinder your smart home experience - empower yourself with the knowledge to resolve issues and enjoy the convenience of your connected home. Visit our blog now and become a troubleshooting pro!</p>
+                <div class="blog-item__tags"> <a class="blog-item__tag" href="#">Plumbing</a><a class="blog-item__tag" href="#">Architecture</a><a class="blog-item__tag" href="#">Maintenance</a></div>
+              </article>
+              <article class="blog__item blog-item"><a class="blog-item__frame" href="#"> <picture><source srcset="images/blog/03.webp" type="image/webp"><img src="images/blog/03.jpg" alt="A smartphone."></picture></a>
+                <header class="blog-item__header"> 
+                  <time class="blog-item__time" datetime="2023-01-19">19 Jan 2023</time>
+                  <h3 class="blog-item__title heading-four"> <a href="#">Painting Techniques for a Kitchen Refresh</a></h3>
+                </header>
+                <p class="blog-item__text">Discover the ultimate guide to troubleshooting common smart home issues in our latest blog post. From connectivity problems to device malfunctions, we provide step-by-step solutions to help you restore the seamless functionality of your smart home system. Gain expert insights, practical tips, and insider advice to keep your home automation running smoothly. Don't let technical glitches hinder your smart home experience - empower yourself with the knowledge to resolve issues and enjoy the convenience of your connected home. Visit our blog now and become a troubleshooting pro!</p>
+                <div class="blog-item__tags"> <a class="blog-item__tag" href="#">Plumbing</a><a class="blog-item__tag" href="#">Architecture</a><a class="blog-item__tag" href="#">Maintenance</a></div>
+              </article>
+            </div>
+            <button class="blog__more">
+               View More
+              <svg>
+                <use xlink:href="./images/icons/symbol-defs.svg#icon-chevron"> </use>
+              </svg>
+            </button>
+          </div>
+        </section>
+        <section class="faq"> 
+          <div class="faq__container container">
+            <div class="faq__header">
+              <h2 class="faq__heading heading-two">Frequently Asked Questions</h2>
+              <p class="faq__text">Still need help? <a class="faq__link" href="#">Get Help Now</a></p>
+            </div>
+            <div class="faq__accordion accordion" data-accordion="one">
+              <section class="accordion__panel _active" data-accordion="panel">
+                <h3 class="accordion__title heading-three">
+                  <button class="accordion__trigger" id="accordion1id" aria-controls="sect1" aria-expanded="true" type="button"><span class="accordion__text">What is HomePro?
+                      <svg class="accordion__icon">
+                        <use xlink:href="./images/icons/symbol-defs.svg#icon-chevron"></use>
+                      </svg></span></button>
+                </h3>
+                <div class="accordion__content" id="sect1" aria-labelledby="accordion1id" role="region">
+                  <div class="accordion__body">HomePro is a home care platform that connects homeowners with professional service providers offering a wide range of home services, including repairs, maintenance, cleaning, and more.</div>
+                </div>
+              </section>
+              <section class="accordion__panel" data-accordion="panel">
+                <h3 class="accordion__title heading-three">
+                  <button class="accordion__trigger" id="accordion2id" aria-controls="sect2" aria-expanded="false" type="button"><span class="accordion__text">Are the service providers on HomePro reliable and qualified?
+                      <svg class="accordion__icon">
+                        <use xlink:href="./images/icons/symbol-defs.svg#icon-chevron"></use>
+                      </svg></span></button>
+                </h3>
+                <div class="accordion__content" id="sect2" aria-labelledby="accordion2id" role="region" hidden>
+                  <div class="accordion__body">HomePro is a home care platform that connects homeowners with professional service providers offering a wide range of home services, including repairs, maintenance, cleaning, and more.</div>
+                </div>
+              </section>
+              <section class="accordion__panel" data-accordion="panel">
+                <h3 class="accordion__title heading-three">
+                  <button class="accordion__trigger" id="accordion3id" aria-controls="sect3" aria-expanded="false" type="button"><span class="accordion__text">What if I have an issue or complaint about a service provider?
+                      <svg class="accordion__icon">
+                        <use xlink:href="./images/icons/symbol-defs.svg#icon-chevron"></use>
+                      </svg></span></button>
+                </h3>
+                <div class="accordion__content" id="sect3" aria-labelledby="accordion3id" role="region" hidden>
+                  <div class="accordion__body">HomePro is a home care platform that connects homeowners with professional service providers offering a wide range of home services, including repairs, maintenance, cleaning, and more.</div>
+                </div>
+              </section>
+              <section class="accordion__panel" data-accordion="panel">
+                <h3 class="accordion__title heading-three">
+                  <button class="accordion__trigger" id="accordion4id" aria-controls="sect4" aria-expanded="false" type="button"><span class="accordion__text">How are payments handled on HomePro?
+                      <svg class="accordion__icon">
+                        <use xlink:href="./images/icons/symbol-defs.svg#icon-chevron"></use>
+                      </svg></span></button>
+                </h3>
+                <div class="accordion__content" id="sect4" aria-labelledby="accordion4id" role="region" hidden>
+                  <div class="accordion__body">HomePro is a home care platform that connects homeowners with professional service providers offering a wide range of home services, including repairs, maintenance, cleaning, and more.</div>
+                </div>
+              </section>
+              <section class="accordion__panel" data-accordion="panel">
+                <h3 class="accordion__title heading-three">
+                  <button class="accordion__trigger" id="accordion5id" aria-controls="sec5" aria-expanded="false" type="button"><span class="accordion__text">How do I leave a review for a service provider?
+                      <svg class="accordion__icon">
+                        <use xlink:href="./images/icons/symbol-defs.svg#icon-chevron"></use>
+                      </svg></span></button>
+                </h3>
+                <div class="accordion__content" id="sec5" aria-labelledby="accordion5id" role="region" hidden>
+                  <div class="accordion__body">HomePro is a home care platform that connects homeowners with professional service providers offering a wide range of home services, including repairs, maintenance, cleaning, and more.</div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </section>
+        <section class="talk"> 
+          <div class="talk__container container">
+            <div class="talk__info"> 
+              <h2 class="talk__title heading-one">Already to improve or repair your home? Let’s Talk!</h2>
+              <ul class="talk__check-list check-list"> 
+                <li class="check-list__item"> 
+                  <svg>
+                    <use xlink:href="./images/icons/symbol-defs.svg#icon-check"></use>
+                  </svg>Free Quotes
+                </li>
+                <li class="check-list__item"> 
+                  <svg>
+                    <use xlink:href="./images/icons/symbol-defs.svg#icon-check"></use>
+                  </svg>100% Commitment-Free
+                </li>
+              </ul>
+              <button class="talk__button button"><span class="button__text">Call Us Now</span><span class="button__frame">
+                  <svg>
+                    <use xlink:href="./images/icons/symbol-defs.svg#icon-phone"> </use>
+                  </svg></span></button>
+            </div>
+          </div>
+          <div class="talk__image"><picture><source srcset="images/talk/01.webp" type="image/webp"><img src="images/talk/01.png" alt="An excited man recommended the HomePro app on his smartphone."></picture></div>
+        </section>
+      </main>
+      <footer class="footer"> 
+        <div class="footer__container container">
+          <section class="footer__subscribe footer-subscribe">
+            <div class="footer-subscribe__info"> 
+              <h3 class="footer-subscribe__title">Stay Connected with Our Newsletter</h3>
+              <p class="footer-subscribe__text">Subscribe to our newsletter to get more news, promo, or news services</p>
+            </div>
+            <form class="footer-subscribe__form form" action="#">
+              <input class="form__input" required placeholder="Enter email address" type="email" autocomplete="on">
+              <button class="form__button button-form" type="submit">Subscribe </button>
+            </form>
+          </section>
+          <div class="footer__main footer-main"> 
+            <div class="footer-main__info"> 
+              <h2 class="footer-main__title"><a class="footer-maint__title-link" href="#"><span class="sr-only">HomePro</span><img src="images/logo-white.svg" alt="HomePro"></a></h2>
+              <p class="footer-main__text">Home Pro is your premier destination for top-notch smart home service and repair.</p>
+              <ul class="footer-main__social social"> 
+                <li class="social__item"><a class="social__link" href="#" title="Our YouTube.">
+                    <svg>
+                      <use xlink:href="./images/icons/symbol-defs.svg#icon-youtube"></use>
+                    </svg></a></li>
+                <li class="social__item"> <a class="social__link" href="#" title="Our Instagram.">
+                    <svg>
+                      <use xlink:href="./images/icons/symbol-defs.svg#icon-instagram"> </use>
+                    </svg></a></li>
+                <li class="social__item"><a class="social__link" href="#" title="Our Facebook.">
+                    <svg>
+                      <use xlink:href="./images/icons/symbol-defs.svg#icon-facebook"></use>
+                    </svg></a></li>
+                <li class="social__item"><a class="social__link" href="#" title="Our Twitter (X).">
+                    <svg>
+                      <use xlink:href="./images/icons/symbol-defs.svg#icon-twitter"></use>
+                    </svg></a></li>
+                <li class="social__item"> <a class="social__link" href="#" title="Our e-mail.">
+                    <svg>
+                      <use xlink:href="./images/icons/symbol-defs.svg#icon-mail"></use>
+                    </svg></a></li>
+              </ul>
+            </div>
+            <div class="footer-main__sections">
+              <section class="footer-main__pages footer-pages"> 
+                <h3 class="footer-pages__title">Company </h3>
+                <nav class="footer-pages__nav"> 
+                  <ul class="footer-pages__list"> 
+                    <li class="footer-pages__item"><a class="footer-pages__link" href="#">About us</a></li>
+                    <li class="footer-pages__item"><a class="footer-pages__link" href="#">Services</a></li>
+                    <li class="footer-pages__item"><a class="footer-pages__link" href="#">Our Blog</a></li>
+                    <li class="footer-pages__item"><a class="footer-pages__link" href="#">Contact</a></li>
+                  </ul>
+                </nav>
+              </section>
+              <section class="footer-main__pages footer-pages"> 
+                <h3 class="footer-pages__title">Legal</h3>
+                <nav class="footer-pages__nav">
+                  <ul class="footer-pages__list">
+                    <li class="footer-pages__item"><a class="footer-pages__link" href="#">Terms</a></li>
+                    <li class="footer-pages__item"><a class="footer-pages__link" href="#">Privacy</a></li>
+                    <li class="footer-pages__item"><a class="footer-pages__link" href="#">Cookies</a></li>
+                    <li class="footer-pages__item"><a class="footer-pages__link" href="#">License</a></li>
+                  </ul>
+                </nav>
+              </section>
+            </div>
+          </div>
+          <div class="footer__copyrights"><span class="footer__copyrights-text">©2023 HomePro . All rights reserved</span></div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

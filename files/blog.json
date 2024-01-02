@@ -1,0 +1,73 @@
+{
+  "blogItems": [
+    {
+      "id": 0,
+      "image": {
+        "src": "images/blog/04.jpg",
+        "srcset": "images/blog/04.webp",
+        "alt": "Woman"
+      },
+      "time": "2 Jan 2024",
+      "datetime": "2024-01-02",
+      "title": "Deal with plumbing",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores officia repellat omnis voluptates iusto culpa? Corrupti, voluptatum? Quis, sunt. Perferendis dolor enim, alias ipsam cum eligendi sunt hic quia repudiandae!",
+      "href": "https://www.google.com/",
+      "tags": [
+        {
+          "name": "Plumbing",
+          "href": "https://www.google.com/"
+        },
+        {
+          "name": "Cleaning",
+          "href": "#"
+        },
+        {
+          "name": "Maintenance",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "image": {
+        "src": "images/blog/05.jpg",
+        "srcset": "images/blog/05.webp",
+        "alt": "A fountain."
+      },
+      "time": "1 Jan 2024",
+      "datetime": "2024-01-01",
+      "title": "Garden decor",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores officia repellat omnis voluptates iusto culpa? Corrupti, voluptatum? Quis, sunt. Perferendis dolor enim, alias ipsam cum eligendi sunt hic quia repudiandae!",
+      "href": "#",
+      "tags": [
+        {
+          "name": "Garden",
+          "href": "#"
+        },
+        {
+          "name": "Architecture",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "image": {
+        "src": "images/blog/06.jpg",
+        "srcset": "images/blog/06.webp",
+        "alt": "Bathroom"
+      },
+      "time": "31 Dec 2023",
+      "datetime": "2023-12-31",
+      "title": "Clean bathroom",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores officia repellat omnis voluptates iusto culpa? Corrupti, voluptatum? Quis, sunt. Perferendis dolor enim, alias ipsam cum eligendi sunt hic quia repudiandae!",
+      "href": "#",
+      "tags": [
+        {
+          "name": "Cleaning",
+          "href": "#"
+        }
+      ]
+    }
+  ]
+}
